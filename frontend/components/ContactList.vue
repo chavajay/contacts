@@ -101,7 +101,7 @@
           <ion-icon :icon="peopleOutline" class="empty-icon"></ion-icon>
           <h3>No hay contactos</h3>
           <p v-if="store.q || store.tag || store.favorite">
-            Intenta ajustar los filtros de búsqueda
+            Intenta ajustar los filtros de búsqueda.
           </p>
           <p v-else>
             Comienza agregando tu primer contacto
@@ -304,6 +304,7 @@ const getInitials = (name: string) => {
   flex-wrap: wrap;
   gap: 6px;
   margin-top: 8px;
+  
 }
 
 .tag-chip {
