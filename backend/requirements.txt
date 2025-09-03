@@ -1,0 +1,6 @@
+**** Versiones para que funcione el backend ****
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlmodel==0.0.22
+pydantic[email]==2.8.2
+python-multipart==0.0.9
